@@ -1,8 +1,8 @@
 <?php
-$databaseHost = '192.168.20.252';
+$databaseHost = 'localhost';
 $databaseName = 'test';
-$databaseUsername = 'example';
-$databasePassword = 'password';
+$databaseUsername = 'root';
+$databasePassword = '';
 
 // Open a new connection to the MySQL server
 $mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName); 
